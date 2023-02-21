@@ -4,6 +4,9 @@ const nextConfig = {
   poweredByHeader: false,
   images: {
     unoptimized: true, // next export not support :<
+  },
+  experimental: {
+    runtime: 'edge'
   }
 }
 
