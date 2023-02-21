@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { AppProps } from 'next/app'
 
-export default function Error404() {
+export default function Error404(props: AppProps) {
   return (
     <>
       <Head>
@@ -37,6 +38,9 @@ export default function Error404() {
               />
             </a>
           </div>
+        </div>
+        <div className={`absolute bottom-0 right-0 m-4 text-xs text-gray-500`}>
+          BuildID: {process.env.BUILD_ID}
         </div>
       </div>
     </>
