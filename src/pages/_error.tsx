@@ -39,9 +39,6 @@ export default function Error404(props: AppProps) {
             </a>
           </div>
         </div>
-        <div className={`absolute bottom-0 right-0 m-4 text-xs text-gray-500`}>
-          BuildID: {process.env.BUILD_ID}
-        </div>
       </div>
     </>
   )

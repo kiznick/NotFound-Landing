@@ -1,18 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  poweredByHeader: false,
-  images: {
-    unoptimized: true, // next export not support :<
+  experimental: {
+    runtime: "experimental-edge",
   },
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.plugins.push(
-      new webpack.DefinePlugin({
-        'process.env.BUILD_ID': JSON.stringify(buildId),
-      })
-    )
-    return config
-  }
+  reactStrictMode: true,
+  poweredByHeader: false
 }
 
 module.exports = nextConfig

@@ -1,0 +1,18 @@
+##### Skill
+    -   PHP
+    -   MySQL
+    -   HTML
+    -   CSS
+    -   JavaScript
+    -   TypeScript
+    -   Node.js
+    -   React.js
+    -   Next.js
+    -   jQuery
+    -   Git
+    -   Golang
+    -   Visual Basic
+    -   C
+    -   C++
+    -   Python
+    -   Arduino
